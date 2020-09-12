@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1599317752 source:e:\silva nahuel\programacion utn 2020\funcionessbd5sep\main.c
+1599519840 source:e:\silva nahuel\programacion utn 2020\funcionessbd5sep\main.c
 	<stdio.h>
 	<stdlib.h>
+	"silva.h"
+
+1599519843 e:\silva nahuel\programacion utn 2020\funcionessbd5sep\silva.h
+
+1599519845 source:e:\silva nahuel\programacion utn 2020\funcionessbd5sep\silva.c
+	"silva.h"
 

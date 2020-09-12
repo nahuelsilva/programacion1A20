@@ -127,7 +127,7 @@ int brindis(int saludo)
     }
     else
     {
-        printf("primero saludar..\n");
+        printf("primero hay que saludar..\n");
     }
 
     return error;
