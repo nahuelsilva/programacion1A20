@@ -1,53 +1,57 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define TAM 5
+
 int main()
 {
-    int numeros [5];
+    int numeros [TAM];
+    int maximo;
+    //int indice;
+    int flagMaximo = 1;
 
-    int mayor;
-    int flagMayor = 1;
-    int posicion;
-    int mayores;
-    int contadorMayores = 0;
+    // 1°er for es para cargar los numeros en el ARRAY
 
-
-    for(int i = 0; i < 5 ; i++)
+    for(int i = 0 ; i < TAM ; i++)
     {
-        printf("ingrese un numero: ");
+        printf("ingrese sus numeros: ");
         scanf("%d" , &numeros[i]);
-
-/*
-    if(flagMayor == 1 || numeros[i] > mayor)
-    {
-        mayor = numeros[i];           ---------- esta bien pero es una manera de curso de ingreso
-    }                                              ahora se hace cosas por separado
-    flagMayor = 0;
-*/
     }
 
-    for(int i = 0 ; i < 5 ; i++)
+    // 2°do FOR es para encontar el maximo
+
+    for(int i = 0 ; i < TAM ; i++)
     {
-        if(flagMayor == 1 || numeros[i] >= mayor)
+        //printf("%d " , numeros[i]); solo para mostrar el mensaje
+
+
+        if(flagMaximo == 1 || numeros[i] >= maximo)
         {
-            mayor = numeros[i];
-           // posicion = i; ---- los valores se cuentan desde 0 hasta 4 en este caso para nostrar el correcto seria:
 
-          // posicion = i + 1;
+            maximo = numeros[i];
+           // indice = i;         // esto es para encontrar el indice donde se encuentra el numero maximo
+
         }
-        flagMayor = 0;
+
+        flagMaximo = 0; //bajamos la bandera para q solo guarde una vez cuando entra el primer numero
 
     }
 
+    printf("\nEl numero maximo es: %d y su indice es: " , maximo);
 
+    // 3°er FOR es para encontrar el indice del maximo si hay mas de uno
 
-    printf("el mayor es: %d\n" , mayor);
-    printf("la posicion es: %d" , posicion);
-
-    for(int i = 0 ; i < 5 ; i++)
+    for(int i = 0 ; i < TAM ; i++)
     {
-        if(numeros [i] == mayor)
-       printf("%d" , i);
+        if(numeros[i] ==  maximo)
+        {
+            printf("%d " , i +1);
+        }
+
     }
+
+
+
+
     return 0;
 }

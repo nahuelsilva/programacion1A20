@@ -7,6 +7,7 @@ int sumar(int num1 , int num2);// puedo o no poner los num1 y num2 xq no influye
 int restar(int num1 , int num2);
 int multiplicacion(int num1 , int num2);
 float division(int num1 , int num2);
+long long int factorial(int);
 
 int main()
 {
@@ -18,8 +19,11 @@ int main()
     int rdoR;
     int rdoM;
     float rdoD;
+    long long int rdoF;
 
-
+    int flagNum1 = 0;
+    int flagNum2 = 0;
+    int flagCalculos = 0;
 
     opcion = menu(num1 , num2);
 
@@ -33,26 +37,52 @@ int main()
             case 1:
                 printf("ingrese primer operador: \n");
                 scanf("%d" , &num1);
+                flagNum1 = 1;
                 break;
 
             case 2:
                 printf("ingrese 2do operador: \n");
                 scanf("%d" , &num2);
+                flagNum2 = 1;
                 break;
 
             case 3:
-                printf("realizando operaciones con exito:\n");
-                rdoS = sumar(num1 , num2);
-                rdoR = restar(num1 , num2);
-                rdoM = multiplicacion(num1 , num2);
-                rdoD = division(num1 , num2);
+                if(flagNum1 == 1 && flagNum2 == 1)
+                {
+                        printf("realizando operaciones con exito:\n");
+                        rdoS = sumar(num1 , num2);
+                        rdoR = restar(num1 , num2);
+                        rdoM = multiplicacion(num1 , num2);
+                        rdoD = division(num1 , num2);
+                        rdoF = factorial(num1);
+
+                       flagCalculos = 1;
+
+
+                }
+                else
+                {
+                    printf("error ingrese numeros primero");
+
+                }
+
                 break;
 
             case 4:
-                printf("LA suma es: %d\n" , rdoS);
-                printf("la resta es: %d\n" , rdoR);
-                printf("la multiplicacion es: %d\n" , rdoM);
-                printf("la division es: %.2f\n" , rdoD);
+                if(flagCalculos == 1)
+                {
+                    printf("LA suma es: %d\n" , rdoS);
+                    printf("la resta es: %d\n" , rdoR);
+                    printf("la multiplicacion es: %d\n" , rdoM);
+                    printf("la division es: %.2f\n" , rdoD);
+                    printf("el factorial del primero es: %lld" , rdoF);
+                }
+                else
+                {
+                    printf("Primero realizar calculos");
+
+                }
+
                 break;
 
 
@@ -146,4 +176,17 @@ float division(int num1 , int num2)
     resultadoD = (float) num1 / num2;
 
     return resultadoD;
+}
+
+long long int factorial(int num1)
+{
+
+    int fac = 1;
+
+    for(int i = 1 ; i <= num1 ; i++)
+    {
+        fac = fac * i;
+    }
+
+    return fac;
 }
