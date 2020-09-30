@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1601479217 source:e:\silva nahuel\programacion utn 2020\abmejercicio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+

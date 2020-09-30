@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1601387740 source:e:\silva nahuel\programacion utn 2020\cadenasnombres\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

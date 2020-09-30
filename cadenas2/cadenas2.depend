@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1600865374 source:e:\silva nahuel\programacion utn 2020\cadenas2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

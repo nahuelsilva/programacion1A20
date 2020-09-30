@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1601295684 source:e:\silva nahuel\programacion utn 2020\sabadoejerciciocadena\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1601134616 source:e:\silva nahuel\programacion utn 2020\sabadoejerciciocadena\cadena.c
+	<stdio.h>
+	<string.h>
+	"cadena.h"
+
+1601134207 e:\silva nahuel\programacion utn 2020\sabadoejerciciocadena\cadena.h
+

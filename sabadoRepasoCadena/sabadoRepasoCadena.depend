@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1601130899 source:e:\silva nahuel\programacion utn 2020\sabadorepasocadena\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"imput.h"
+
+1601130871 source:e:\silva nahuel\programacion utn 2020\sabadorepasocadena\imput.c
+	<stdio.h>
+	<string.h>
+	"imput.h"
+
+1601130980 e:\silva nahuel\programacion utn 2020\sabadorepasocadena\imput.h
+

@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1600829369 source:e:\silva nahuel\programacion utn 2020\parelelos2\main.c
+1600900266 source:e:\silva nahuel\programacion utn 2020\parelelos2\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 
