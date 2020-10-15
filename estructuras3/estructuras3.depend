@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1602532645 source:e:\silva nahuel\programacion utn 2020\estructuras3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1602534084 source:e:\silva nahuel\programacion utn 2020\estructuras2.c
+
+1602533952 source:e:\silva nahuel\programacion utn 2020\estructuras3\fecha.c
+
+1602533822 source:e:\silva nahuel\programacion utn 2020\estructuras3\personas.c
+

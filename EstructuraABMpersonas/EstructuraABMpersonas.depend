@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1602534955 source:e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\fechas.c
+
+1602783630 source:e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"fechas.h"
+	"personas.h"
+	"sport.h"
+
+1602535222 e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\fechas.h
+
+1602780834 e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\personas.h
+	"fechas.h"
+	"sport.h"
+
+1602782094 source:e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\personas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"fechas.h"
+	"personas.h"
+	"dataStore.h"
+	"sport.h"
+
+1602775969 e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\datastore.h
+
+1602780834 e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\sport.h
+
+1602780834 source:e:\silva nahuel\programacion utn 2020\estructuraabmpersonas\sport.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"sport.h"
+

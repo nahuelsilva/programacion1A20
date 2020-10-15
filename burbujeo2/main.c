@@ -33,7 +33,7 @@ void ordenarVectorEntero(int victor[] , int tam , int ascendente)
 
             for(int j = i +1 ; j < tam ; j++)
             {
-                if(ascendente)
+                if(ascendente == 0)
                 {
 
                     if(victor[i] > victor[j])
@@ -41,8 +41,6 @@ void ordenarVectorEntero(int victor[] , int tam , int ascendente)
                         aux = victor[i];
                         victor[i] = victor[j];
                         victor[j] = aux;
-
-
                     }
                 }
                 else

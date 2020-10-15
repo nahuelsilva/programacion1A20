@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1602361046 source:e:\silva nahuel\programacion utn 2020\estructurasanidadas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

@@ -32,8 +32,8 @@ int main()
    int proximoLegajo = 6000;
    int rta;
 
-   ePersona lista[TAM];// = {{1234 , "miguel" , 'm' , 1.80 , 0} , {2233 , "ana" , 'f' , 1.53 , 0} , {3124 , "juan" , 'm' , 1.78 , 0} , {4251 , "sofia" , 'f' , 1.58 , 0} , {4211 , "pepe" , 'm' , 1.97 , 0}};
-
+   ePersona lista[TAM] = {{1234 , "miguel" , 'm' , 1.80 , 0} , {2233 , "ana" , 'f' , 1.53 , 0} , {3124 , "juan" , 'm' , 1.78 , 0} , {4251 , "sofia" , 'f' , 1.58 , 0} , {4211 , "pepe" , 'm' , 1.97 , 0}};
+/*
    if(inicializarPersonas(lista ,  TAM) == 0)
    {
        printf("inicialzacion exitosa..\n\n");
@@ -67,7 +67,8 @@ int main()
    {
        printf("NO se pudo hacer el alta..\n");
    }
-/*
+   */
+
     rta = bajaPersona(lista , TAM);
 
     if(rta == 0)
@@ -85,7 +86,7 @@ int main()
             printf("baja cancelado por el usuario.\n\n");
         }
     }
-*/
+
     mostrarPersonas(lista , TAM);
 
 
